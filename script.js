@@ -12,7 +12,7 @@
       };
 
       try {
-        const response = await fetch('https://script.google.com/macros/s/AKfycbxZvZswU-toyCm9_h1LmL5HA82WPTPtHaUnlTdFmHkaedbvKzPUPeqP2F-A7m9SgFyo/exec', {
+        const response = await fetch('https://script.google.com/macros/s/AKfycbzGpWt5pZMHcX1R1seYradLBYnhy83WPOdGoZ57RkWhWSGWbD8KR6vXc1yTIxZnmzdY/exec', {
           method: 'POST',
           body: JSON.stringify(formData)
         });
